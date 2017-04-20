@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		First Name<br>
+		<input type="text" name="firstname" required>
+		<br>
+		Last Name<br>
+		<input type="text" name="lastname" required>
+		<br>
+		E-mail<br>
+		<input type="email" name="email" required>
+		<br>
+		Birthday<br>
+		<input type="date" name="birth" max="1960-12-31" min="2005-01-01" required>
+		<br>
+		Favourite Sport<br>
+		<select>
+			<option value="Soccer">Soccer</option>
+			<option value="Tennis">Tennis</option>
+			<option value="Basquet">Basquet</option>
+			<option value="Rugby">Rugby</option>
+			<option value="Golf">Golf</option>
+		</select>
+		<br>
+		Bio<br>
+		<textarea rows="4" cols="50">Insert your bio here...</textarea>
+		<br>
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+	</form>
+</body>
+</html>
